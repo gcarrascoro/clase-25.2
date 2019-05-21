@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cuadrado {
+    height: 200px;
+    width: 200px;
+    background-color: darkblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.boton{
+    height: 50px;
+    width: 100px;
+background-color: white;
+color: pink;
+display: flex;
+justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 0px 1px pink;
+    transition: all 0.5s;
+}
+ 
+ .boton:hover {
+     color:white;
+     background-color: pink;
+     box-shadow: -5px -5px 0px 1px white;
+     transform: translate(5px,5px)
+    }
